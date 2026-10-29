@@ -295,3 +295,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .form { padding: 28px 20px; }
   .brand__text strong { font-size: 1.15rem; }
 }
+
+/* SEO : mot-clé local dans le H1, présenté comme un sur-titre */
+.h1__kicker { display: block; font: 700 .8rem var(--font-head); letter-spacing: .14em; text-transform: uppercase; color: var(--blue); margin-bottom: 1.1em; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
